@@ -8,7 +8,7 @@ import (
 	"sort"
 
 	"github.com/getkin/kin-openapi/openapi3"
-	"github.com/tufin/oasdiff/diff"
+	"github.com/treeverse/oasdiff/diff"
 )
 
 type BackwardCompatibilityCheck func(diffReport *diff.Diff, operationsSources *diff.OperationsSourcesMap, config Config) Changes

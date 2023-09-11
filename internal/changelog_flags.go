@@ -1,7 +1,7 @@
 package internal
 
 import (
-	"github.com/tufin/oasdiff/diff"
+	"github.com/treeverse/oasdiff/diff"
 )
 
 type ChangelogFlags struct {

@@ -1,8 +1,8 @@
 package report
 
 import (
-	"github.com/tufin/oasdiff/diff"
-	"github.com/tufin/oasdiff/utils"
+	"github.com/treeverse/oasdiff/diff"
+	"github.com/treeverse/oasdiff/utils"
 )
 
 type DiffT interface {

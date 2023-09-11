@@ -1,7 +1,7 @@
 package checker
 
 import (
-	"github.com/tufin/oasdiff/utils"
+	"github.com/treeverse/oasdiff/utils"
 )
 
 func GetDefaultChecks() Config {

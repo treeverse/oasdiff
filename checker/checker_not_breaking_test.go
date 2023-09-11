@@ -7,8 +7,8 @@ import (
 	"cloud.google.com/go/civil"
 	"github.com/getkin/kin-openapi/openapi3"
 	"github.com/stretchr/testify/require"
-	"github.com/tufin/oasdiff/checker"
-	"github.com/tufin/oasdiff/diff"
+	"github.com/treeverse/oasdiff/checker"
+	"github.com/treeverse/oasdiff/diff"
 )
 
 func verifyNonBreakingChangeIsChangelogEntry(t *testing.T, d *diff.Diff, osm *diff.OperationsSourcesMap, changeId string) {

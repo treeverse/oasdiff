@@ -5,7 +5,7 @@ import (
 
 	"github.com/getkin/kin-openapi/openapi3"
 	"github.com/spf13/cobra"
-	"github.com/tufin/oasdiff/diff"
+	"github.com/treeverse/oasdiff/diff"
 )
 
 func getSummaryCmd() *cobra.Command {

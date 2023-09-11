@@ -5,8 +5,8 @@ import (
 
 	"github.com/getkin/kin-openapi/openapi3"
 	"github.com/stretchr/testify/require"
-	"github.com/tufin/oasdiff/checker"
-	"github.com/tufin/oasdiff/diff"
+	"github.com/treeverse/oasdiff/checker"
+	"github.com/treeverse/oasdiff/diff"
 )
 
 // BC: changing an existing header param from optional to required is breaking

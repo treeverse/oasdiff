@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/tufin/oasdiff/checker"
-	"github.com/tufin/oasdiff/diff"
+	"github.com/treeverse/oasdiff/checker"
+	"github.com/treeverse/oasdiff/diff"
 )
 
 // BC: changing request's body schema type from string to number is breaking

@@ -1,8 +1,8 @@
 
-[![CI](https://github.com/Tufin/oasdiff/workflows/go/badge.svg)](https://github.com/Tufin/oasdiff/actions)
+[![CI](https://github.com/treeverse/oasdiff/workflows/go/badge.svg)](https://github.com/treeverse/oasdiff/actions)
 [![codecov](https://codecov.io/gh/tufin/oasdiff/branch/main/graph/badge.svg?token=Y8BM6X77JY)](https://codecov.io/gh/tufin/oasdiff)
-[![Go Report Card](https://goreportcard.com/badge/github.com/tufin/oasdiff)](https://goreportcard.com/report/github.com/tufin/oasdiff)
-[![GoDoc](https://godoc.org/github.com/tufin/oasdiff?status.svg)](https://godoc.org/github.com/tufin/oasdiff)
+[![Go Report Card](https://goreportcard.com/badge/github.com/treeverse/oasdiff)](https://goreportcard.com/report/github.com/treeverse/oasdiff)
+[![GoDoc](https://godoc.org/github.com/treeverse/oasdiff?status.svg)](https://godoc.org/github.com/treeverse/oasdiff)
 [![Docker Image Version](https://img.shields.io/docker/v/tufin/oasdiff?sort=semver)](https://hub.docker.com/r/tufin/oasdiff/tags)
 [![Slack](https://img.shields.io/badge/slack-&#64;oasdiff-green.svg?logo=slack)](https://join.slack.com/t/oasdiff/shared_invite/zt-1wvo7wois-ttncNBmyjyRXqBzyg~P6oA)
 
@@ -39,7 +39,7 @@ docker run --rm -t tufin/oasdiff changelog https://raw.githubusercontent.com/Tuf
 
 ## Install with Go
 ```bash
-go install github.com/tufin/oasdiff@latest
+go install github.com/treeverse/oasdiff@latest
 ```
 
 ## Install on macOS with Brew
@@ -49,7 +49,7 @@ brew install oasdiff
 ```
 
 ## Install on macOS, Windows and Linux
-Copy binaries from [latest release](https://github.com/Tufin/oasdiff/releases/)
+Copy binaries from [latest release](https://github.com/treeverse/oasdiff/releases/)
 
 ## Wrappers
 - [GitHub Action](https://github.com/oasdiff/oasdiff-action)
@@ -71,7 +71,7 @@ oasdiff diff data/openapi-test1.yaml data/openapi-test2.yaml -f text
 ```
 The Text/Markdown diff report provides a simplified and partial view of the changes.  
 To view all details, use the default format: YAML.  
-If you'd like to see additional details in the text/markdown report, please submit a [feature request](https://github.com/Tufin/oasdiff/issues/new?assignees=&labels=&template=feature_request.md&title=).
+If you'd like to see additional details in the text/markdown report, please submit a [feature request](https://github.com/treeverse/oasdiff/issues/new?assignees=&labels=&template=feature_request.md&title=).
 
 ### OpenAPI diff of local files in HTML
 ```bash
@@ -79,7 +79,7 @@ oasdiff diff data/openapi-test1.yaml data/openapi-test2.yaml -f html
 ```
 The HTML diff report provides a simplified and partial view of the changes.  
 To view all details, use the default format: YAML.  
-If you'd like to see additional details in the HTML report, please submit a [feature request](https://github.com/Tufin/oasdiff/issues/new?assignees=&labels=&template=feature_request.md&title=).
+If you'd like to see additional details in the HTML report, please submit a [feature request](https://github.com/treeverse/oasdiff/issues/new?assignees=&labels=&template=feature_request.md&title=).
 
 
 ### OpenAPI diff for remote files over http/s
@@ -203,7 +203,7 @@ endpoints:
 ```
 The modified endpoints section has two items per key, method and path, this is called a [complex mapping key](https://stackoverflow.com/questions/33987316/what-is-a-complex-mapping-key-in-yaml) in YAML.  
 Some YAML libraries don't support complex mapping keys:
-- python PyYAML: see https://github.com/Tufin/oasdiff/issues/94#issuecomment-1087468450
+- python PyYAML: see https://github.com/treeverse/oasdiff/issues/94#issuecomment-1087468450
 - golang gopkg.in/yaml.v3 fails to unmarshal the oasdiff output. This package offers a solution: https://github.com/tliron/yamlkeys
 
 When using output format `json`, oasdiff excludes `endpoints` automatically.
@@ -261,8 +261,8 @@ diff.Get(&diff.Config{}, spec1, spec2)
 ```
 
 ### Code Examples
-- [diff](https://pkg.go.dev/github.com/tufin/oasdiff/diff#example-Get)
-- [breaking changes](https://pkg.go.dev/github.com/tufin/oasdiff/diff#example-GetPathsDiff)
+- [diff](https://pkg.go.dev/github.com/treeverse/oasdiff/diff#example-Get)
+- [breaking changes](https://pkg.go.dev/github.com/treeverse/oasdiff/diff#example-GetPathsDiff)
 
 
 ### OpenAPI References
@@ -270,9 +270,9 @@ oasdiff expects [OpenAPI References](https://swagger.io/docs/specification/using
 References are normally resolved automatically when you load the spec. In other cases you can resolve refs using [Loader.ResolveRefsIn](https://pkg.go.dev/github.com/getkin/kin-openapi/openapi3#Loader.ResolveRefsIn).
 
 ## Requests for enhancements
-1. OpenAPI 3.1 support: see https://github.com/Tufin/oasdiff/issues/52
+1. OpenAPI 3.1 support: see https://github.com/treeverse/oasdiff/issues/52
 
-If you have other ideas, please [let us know](https://github.com/Tufin/oasdiff/discussions/new?category=ideas).
+If you have other ideas, please [let us know](https://github.com/treeverse/oasdiff/discussions/new?category=ideas).
 
 ## Telemetry
 The oasdiff tool collects data in order to help us, the development team, understand how it is being used and what we can to do to continue improving it.  

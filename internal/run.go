@@ -9,7 +9,7 @@ import (
 	"github.com/oasdiff/telemetry/client"
 	"github.com/oasdiff/telemetry/model"
 	"github.com/spf13/cobra"
-	"github.com/tufin/oasdiff/build"
+	"github.com/treeverse/oasdiff/build"
 )
 
 func Run(args []string, stdout io.Writer, stderr io.Writer) int {

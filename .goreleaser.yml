@@ -10,7 +10,7 @@ builds:
    env:
      - CGO_ENABLED=0
    ldflags:
-     - -s -w -X github.com/tufin/oasdiff/build.Version={{.Version}}
+     - -s -w -X github.com/treeverse/oasdiff/build.Version={{.Version}}
 
 release:
  prerelease: auto
@@ -21,7 +21,7 @@ universal_binaries:
 brews:
  -
    name: oasdiff
-   homepage: "https://github.com/tufin/oasdiff"
+   homepage: "https://github.com/treeverse/oasdiff"
    tap:
      owner: tufin
      name: homebrew-tufin
@@ -46,7 +46,7 @@ nfpms:
 
     # Template to your app's homepage.
     # Default is empty.
-    homepage: "https://github.com/tufin/oasdiff"
+    homepage: "https://github.com/treeverse/oasdiff"
 
     # Your app's maintainer (probably you).
     # Default is empty.

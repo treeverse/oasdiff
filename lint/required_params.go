@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/getkin/kin-openapi/openapi3"
-	"github.com/tufin/oasdiff/load"
+	"github.com/treeverse/oasdiff/load"
 )
 
 func RequiredParamsCheck(source string, s *load.SpecInfo) []*Error {

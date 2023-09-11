@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/tufin/oasdiff/utils"
+	"github.com/treeverse/oasdiff/utils"
 )
 
 func TestMinus_Self(t *testing.T) {

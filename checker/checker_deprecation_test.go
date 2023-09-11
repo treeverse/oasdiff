@@ -9,9 +9,9 @@ import (
 	"cloud.google.com/go/civil"
 	"github.com/getkin/kin-openapi/openapi3"
 	"github.com/stretchr/testify/require"
-	"github.com/tufin/oasdiff/checker"
-	"github.com/tufin/oasdiff/diff"
-	"github.com/tufin/oasdiff/load"
+	"github.com/treeverse/oasdiff/checker"
+	"github.com/treeverse/oasdiff/diff"
+	"github.com/treeverse/oasdiff/load"
 )
 
 func open(file string) (*load.SpecInfo, error) {
@@ -303,7 +303,7 @@ func TestBreaking_SunsetDeletedForDeprecatedEndpoint(t *testing.T) {
 	require.Equal(t, "sunset-deleted", errs[0].GetId())
 }
 
-// test sunset date without double quotes, see https://github.com/Tufin/oasdiff/pull/198/files
+// test sunset date without double quotes, see https://github.com/treeverse/oasdiff/pull/198/files
 func TestBreaking_DeprecationPathMixed_RFC3339_Sunset(t *testing.T) {
 
 	s1, err := open(getDeprecationFile("deprecated-path-mixed-rfc3339-sunset.yaml"))

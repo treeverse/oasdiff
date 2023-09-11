@@ -1,6 +1,6 @@
 package diff
 
-import "github.com/tufin/oasdiff/utils"
+import "github.com/treeverse/oasdiff/utils"
 
 // StringMapDiff describes the changes between a pair of string maps
 type StringMapDiff struct {

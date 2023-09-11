@@ -2,7 +2,7 @@ package diff
 
 import (
 	"github.com/getkin/kin-openapi/openapi3"
-	"github.com/tufin/oasdiff/utils"
+	"github.com/treeverse/oasdiff/utils"
 )
 
 // LinkDiff describes the changes between a pair of link objects: https://swagger.io/specification/#link-object

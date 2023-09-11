@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/tufin/oasdiff/checker"
-	"github.com/tufin/oasdiff/diff"
+	"github.com/treeverse/oasdiff/checker"
+	"github.com/treeverse/oasdiff/diff"
 )
 
 // CL: increasing minItems value of request parameter

@@ -5,8 +5,8 @@ import (
 
 	"github.com/getkin/kin-openapi/openapi3"
 	"github.com/stretchr/testify/require"
-	"github.com/tufin/oasdiff/lint"
-	"github.com/tufin/oasdiff/load"
+	"github.com/treeverse/oasdiff/lint"
+	"github.com/treeverse/oasdiff/load"
 )
 
 func loadFrom(t *testing.T, path string) *load.SpecInfo {

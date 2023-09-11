@@ -6,7 +6,7 @@ import (
 
 	"github.com/TwiN/go-color"
 	"github.com/getkin/kin-openapi/openapi3"
-	"github.com/tufin/oasdiff/diff"
+	"github.com/treeverse/oasdiff/diff"
 )
 
 func propertyFullName(propertyPath string, propertyNames ...string) string {

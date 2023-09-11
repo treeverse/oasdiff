@@ -3,7 +3,7 @@ package report
 import (
 	"bytes"
 
-	"github.com/tufin/oasdiff/diff"
+	"github.com/treeverse/oasdiff/diff"
 )
 
 // GetTextReportAsString returns a textual diff report as a string

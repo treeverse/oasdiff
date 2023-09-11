@@ -8,8 +8,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/tufin/oasdiff/checker"
-	"github.com/tufin/oasdiff/internal"
+	"github.com/treeverse/oasdiff/checker"
+	"github.com/treeverse/oasdiff/internal"
 	"gopkg.in/yaml.v3"
 )
 

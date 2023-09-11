@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/tufin/oasdiff/lint"
+	"github.com/treeverse/oasdiff/lint"
 )
 
 func TestRequirePropertiesCheck_OK(t *testing.T) {

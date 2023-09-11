@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/tufin/oasdiff/diff"
-	"github.com/tufin/oasdiff/report"
+	"github.com/treeverse/oasdiff/diff"
+	"github.com/treeverse/oasdiff/report"
 )
 
 func TestHTML(t *testing.T) {

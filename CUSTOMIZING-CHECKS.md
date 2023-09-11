@@ -24,5 +24,5 @@
     ./scripts/test.sh
     ```
 3. Make sure that [BREAKING-CHANGES-EXAMPLES.md](BREAKING-CHANGES-EXAMPLES.md) was updated with your use-cases
-4. If your check is optional, also add it to [this list of optional checks](https://github.com/Tufin/oasdiff#optional-breaking-changes-checks)
+4. If your check is optional, also add it to [this list of optional checks](https://github.com/treeverse/oasdiff#optional-breaking-changes-checks)
 

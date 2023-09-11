@@ -6,9 +6,9 @@ import (
 	"strings"
 
 	"github.com/getkin/kin-openapi/openapi3"
-	"github.com/tufin/oasdiff/checker"
-	"github.com/tufin/oasdiff/diff"
-	"github.com/tufin/oasdiff/load"
+	"github.com/treeverse/oasdiff/checker"
+	"github.com/treeverse/oasdiff/diff"
+	"github.com/treeverse/oasdiff/load"
 	"gopkg.in/yaml.v3"
 )
 

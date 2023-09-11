@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/getkin/kin-openapi/openapi3"
-	"github.com/tufin/oasdiff/utils"
+	"github.com/treeverse/oasdiff/utils"
 )
 
 /*

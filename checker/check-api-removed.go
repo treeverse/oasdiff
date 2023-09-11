@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"cloud.google.com/go/civil"
-	"github.com/tufin/oasdiff/diff"
+	"github.com/treeverse/oasdiff/diff"
 )
 
 func APIRemovedCheck(diffReport *diff.Diff, operationsSources *diff.OperationsSourcesMap, config Config) Changes {

@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/tufin/oasdiff/diff"
+	"github.com/treeverse/oasdiff/diff"
 )
 
 type report struct {

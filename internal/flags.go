@@ -1,6 +1,6 @@
 package internal
 
-import "github.com/tufin/oasdiff/diff"
+import "github.com/treeverse/oasdiff/diff"
 
 type Flags interface {
 	toConfig() *diff.Config

@@ -83,7 +83,7 @@ oasdiff breaking data/openapi-test1.yaml data/openapi-test3.yaml --include-check
 
 ### Customizing Breaking-Changes Checks
 If you encounter a change that isn't considered breaking by oasdiff and you would like to consider it as a breaking-change you may add an [optional breaking-changes check](#optional-breaking-changes-checks).  
-For more information, see [this guide](CUSTOMIZING-CHECKS.md) and this example of adding a custom check: https://github.com/Tufin/oasdiff/pull/208/files
+For more information, see [this guide](CUSTOMIZING-CHECKS.md) and this example of adding a custom check: https://github.com/treeverse/oasdiff/pull/208/files
 
 ### Examples
 [Here are some examples of breaking and non-breaking changes that oasdiff supports](BREAKING-CHANGES-EXAMPLES.md).  

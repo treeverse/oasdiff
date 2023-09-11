@@ -1,7 +1,7 @@
 package checker
 
 import (
-	"github.com/tufin/oasdiff/diff"
+	"github.com/treeverse/oasdiff/diff"
 )
 
 const responsePropertyBecameNullableId = "response-property-became-nullable"

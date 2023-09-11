@@ -6,8 +6,8 @@ import (
 
 	"github.com/getkin/kin-openapi/openapi3"
 	"github.com/spf13/cobra"
-	"github.com/tufin/oasdiff/checker"
-	"github.com/tufin/oasdiff/diff"
+	"github.com/treeverse/oasdiff/checker"
+	"github.com/treeverse/oasdiff/diff"
 )
 
 func getChangelogCmd() *cobra.Command {

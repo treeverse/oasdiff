@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/tufin/oasdiff/checker"
+	"github.com/treeverse/oasdiff/checker"
 )
 
 func TestIsEmpty_EmptyIncludeWarns(t *testing.T) {

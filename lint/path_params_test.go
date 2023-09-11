@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/tufin/oasdiff/lint"
+	"github.com/treeverse/oasdiff/lint"
 )
 
 func TestPathParam_PathOK(t *testing.T) {
