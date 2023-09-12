@@ -68,6 +68,7 @@ func defaultChecks() []BackwardCompatibilityCheck {
 		APISunsetChangedCheck,
 		AddedRequiredRequestBodyCheck,
 		NewRequestNonPathParameterCheck,
+		NewRequestNonPathDefaultParameterCheck,
 		NewRequestPathParameterCheck,
 		NewRequiredRequestHeaderPropertyCheck,
 		RequestBodyBecameEnumCheck,
